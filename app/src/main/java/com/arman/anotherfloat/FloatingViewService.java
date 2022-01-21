@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.os.Build;
 import android.os.IBinder;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -16,12 +17,14 @@ import android.widget.TextView;
 public class FloatingViewService extends Service implements View.OnClickListener {
 
 
+    private static final String METAG = "CCCP";
     private WindowManager mWindowManager;
     private View mFloatingView;
     private View collapsedView;
     private View expandedView;
     private View mTextView;
     private View SafeWordView;
+    private int c_ount=0;
 
     public FloatingViewService() {
     }
@@ -115,9 +118,14 @@ public class FloatingViewService extends Service implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.layoutExpanded:
-                //switching views
-                collapsedView.setVisibility(View.VISIBLE);
-                expandedView.setVisibility(View.GONE);
+                c_ount++;
+                if(c_ount>2) { // button will dissapear only after three clicks
+                    Log.v(METAG, String.valueOf(c_ount));
+                    //switching views
+                    collapsedView.setVisibility(View.VISIBLE);
+                    expandedView.setVisibility(View.GONE);
+                    c_ount=0;
+                }
                 break;
 
             case R.id.buttonClose:

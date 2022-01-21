@@ -2,7 +2,7 @@
     <string name="app_name">PushMe</string>
     <string name="safe">Безопасный</string>
     <string name="tex2">Не имеет ограничений, вакцинирован, переболевший или ПЦР-тест отрицательный.</string>
-    <string name="tex3">Срок действия статуса: до 01.04.2022</string>
+    <string name="tex3">Срок действия статуса: до 14.08.2022</string>
     <string name="tex4">Вы можете войти в течение</string>
     <string name="instructions">Нажмите эту кнопочку для озеленения! \n Нажмите на сердечко робота для закрытия программы!</string>
 </resources>

@@ -24,7 +24,7 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/blue_robot_collapsed" />
+                android:src="@drawable/pigeon3" />
 
             <ImageView
                 android:id="@+id/buttonClose"
@@ -47,22 +47,22 @@
             <TextView
                 android:id="@+id/safe_word"
                 android:layout_width="match_parent"
-                android:maxLines="1"
                 android:layout_height="wrap_content"
-                android:paddingLeft="13dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
                 android:paddingBottom="8dp"
                 android:text="@string/safe"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="#FFFFFF"
-                android:textSize="50sp"
+                android:textSize="49sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingBottom="10dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="8dp"
                 android:text="@string/tex2"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
@@ -73,8 +73,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
-                android:paddingBottom="20dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="15dp"
                 android:text="@string/tex3"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
@@ -86,8 +86,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:paddingLeft="15dp"
-                android:paddingBottom="10dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="8dp"
                 android:text="@string/tex4"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
